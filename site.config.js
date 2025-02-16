@@ -16,8 +16,7 @@ technical expertise with artistic vision.`,
     github: "haneulee",
     instagram: "merci.bien",
   },
-  projects: [
-  ],
+  // projects: [],
   // blog setting (required)
   blog: {
     title: "haneul-log 👩🏻‍💻",
@@ -27,7 +26,7 @@ technical expertise with artistic vision.`,
 
   // CONFIG configration (required)
   link: "https://haneul-log.vercel.app",
-  since: 2025, // If leave this empty, current year will be used.
+  since: "", // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
