@@ -3,14 +3,8 @@ const CONFIG = {
   profile: {
     name: "Haneul",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer & media designer",
-    bio: `I am Haneul, a Frontend Developer with a decade of experience in web development, 
-specializing in React, JavaScript, and user interface design. My work spans interactive web applications, 
-video management systems, and large-scale dashboard solutions.
-
-Currently, I am pursuing a Master's in Media Design at HEAD Genève, where I explore the intersection of 
-technology, design, and interaction. My focus is on creating innovative digital experiences that blend 
-technical expertise with artistic vision.`,
+    role: "frontend developer",
+    bio: "Master's in Media Design at HEAD Genève",
     email: "lovesky4294@gmail.com",
     linkedin: "hnlee",
     github: "haneulee",
@@ -26,7 +20,7 @@ technical expertise with artistic vision.`,
 
   // CONFIG configration (required)
   link: "https://haneul-log.vercel.app",
-  since: "", // If leave this empty, current year will be used.
+  since: 2025, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
@@ -70,7 +64,7 @@ technical expertise with artistic vision.`,
     },
   },
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
-  revalidateTime: 21600 * 7, // revalidate time for [slug], index
+  revalidateTime: 600, // revalidate time for [slug], index
 }
 
 module.exports = { CONFIG }
