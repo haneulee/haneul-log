@@ -16,7 +16,7 @@ technical expertise with artistic vision.`,
     github: "haneulee",
     instagram: "merci.bien",
   },
-  projects: "",
+  projects: false,
   // blog setting (required)
   blog: {
     title: "haneul-log 👩🏻‍💻",
